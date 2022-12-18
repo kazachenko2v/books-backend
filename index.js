@@ -30,6 +30,24 @@ app.get("/documents1", (req, res) => {
   );
 });
 
+app.get("/documents2", (req, res) => {
+  fs.readFile(
+    path.resolve(__dirname, "db/documents2.json"),
+    "utf8",
+    (err, data) => {
+      if (err) {
+        console.error(err);
+        return;
+      }
+      res.json(JSON.parse(data));
+    }
+  );
+});
+
+app.post("/cancel", (req, res) => {
+  console.log(req.body);
+});
+
 app.listen(process.env.PORT || 8800, () => {
   console.log("object");
 });

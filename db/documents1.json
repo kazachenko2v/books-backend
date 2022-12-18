@@ -1,42 +1,42 @@
 [
   {
     "id": "1",
-    "status": "active",
-    "sum": 10,
-    "qty": 10,
-    "volume": 100,
-    "name": "qwe",
-    "delivery_date": "2022-12-17T00:00:00",
-    "cyrrency": "123123"
+    "status": "archive",
+    "sum": 22,
+    "qty": 12,
+    "volume": 80,
+    "name": "Vlad",
+    "delivery_date": "2022-12-17",
+    "currency": "$"
   },
   {
     "id": "2",
     "status": "active",
-    "sum": 10,
-    "qty": 10,
+    "sum": 5,
+    "qty": 40,
     "volume": 100,
-    "name": "qwe",
-    "delivery_date": "2022-12-13T00:00:00",
-    "cyrrency": "123123"
+    "name": "John",
+    "delivery_date": "2022-6-6",
+    "currency": "$"
   },
   {
     "id": "3",
     "status": "active",
-    "sum": 10,
-    "qty": 10,
+    "sum": 6,
+    "qty": 5,
     "volume": 100,
-    "name": "qwe",
-    "delivery_date": "2022-12-14T00:00:00",
-    "cyrrency": "123123"
+    "name": "EQW",
+    "delivery_date": "2010-11-14",
+    "currency": "$"
   },
   {
-    "id": "4",
+    "id": "6",
     "status": "active",
-    "sum": 10,
-    "qty": 10,
+    "sum": 15,
+    "qty": 13,
     "volume": 100,
-    "name": "qwe",
-    "delivery_date": "2022-12-12T00:00:00",
-    "cyrrency": "123123"
+    "name": "ADS",
+    "delivery_date": "2020-12-12",
+    "currency": "$"
   }
 ]
